@@ -26,6 +26,7 @@ page_header.innerHTML = `<div class="inner">
 </div>`;
 
 // Remove all base script
+/*
 function promWait() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -45,7 +46,14 @@ promWait().then((result) => {
         }
     }
 });
+*/
 
+setTimeout(() => {
+    for (let index = 1; index < document.scripts.length; index++) {
+        console.log(document.scripts);
+        document.scripts[1].remove();
+    }
+  }, 5000);
 
 
 
