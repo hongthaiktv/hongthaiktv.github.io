@@ -1,4 +1,4 @@
-## tmenu - Menu generation
+<h2>tmenu - Menu generation</h2>
 <div><i>Linux Bash terminal</i></div>
 
 ```sh
