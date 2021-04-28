@@ -17,6 +17,7 @@ document.head.innerHTML = `<meta http-equiv="content-type" content="text/html; c
 var markdown_body = document.querySelector("div.markdown-body");
 var page_header = document.createElement("header");
 markdown_body.querySelector("h1").remove();
+markdown_body.id = "main-content"
 page_header.innerHTML = `<div class="inner">
 <a href="https://hongthaiktv.github.io/">
     <h1>HONGTHAIKTV</h1>
