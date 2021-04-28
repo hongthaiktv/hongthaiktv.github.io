@@ -26,9 +26,20 @@ page_header.innerHTML = `<div class="inner">
 </div>`;
 
 // Remove all base script
-setTimeout(() => {
+function prom() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("after 5s");
+      }, 5000);
+    });
+}
+
+prom().then((result) => {
+    console.log(result);
     console.log(document.scripts);
-}, 10000);
+}).catch((err) => {
+    
+});
 
 
 
