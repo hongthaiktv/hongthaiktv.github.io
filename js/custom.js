@@ -37,9 +37,10 @@ function promWait() {
 promWait().then((result) => {
     let script_length = document.scripts.length;
     console.log(result);
-    console.log(document.scripts);
+    
     if (script_length > 1) {
         for (let index = 1; index < script_length; index++) {
+            console.log(document.scripts);
             document.scripts[index].remove();
         }
     }

@@ -70,7 +70,10 @@ function prom() {
 }
     prom().then((result) => {
       console.log(result);
-      document.scripts[0].remove();
+      for (let index = 0; index < document.scripts.length; index++) {
+        console.log(document.scripts[index]);
+        
+      }
     });
 
     console.log("prom start...");
