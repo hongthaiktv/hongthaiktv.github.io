@@ -6,11 +6,6 @@ document.head.innerHTML = `<meta http-equiv="content-type" content="text/html; c
 
     <title>HONGTHAIKTV WIKI PAGE</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <style>
-      div.markdown-body {
-        margin: 20px;
-      }
-    </style>
     `;
 
 // Insert custom page header
