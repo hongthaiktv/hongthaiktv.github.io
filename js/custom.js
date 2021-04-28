@@ -31,4 +31,5 @@ var cnt_wrapper = document.createElement("div");
 cnt_wrapper.id = "content-wrapper";
 cnt_wrapper.innerHTML = "<div class='inner clearfix'></div>";
 cnt_wrapper.querySelector("div").appendChild(markdown_body);
+document.body.appendChild(cnt_wrapper);
 
