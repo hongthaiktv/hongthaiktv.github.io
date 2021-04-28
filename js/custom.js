@@ -26,11 +26,13 @@ page_header.innerHTML = `<div class="inner">
 </div>`;
 
 // Remove all base script
-console.log(document.scripts.length);
-    for (let i = 0; i < document.scripts.length; i++) {
-        //document.scripts[i].remove();
-        
-        console.log(document.scripts[i]);
+document.body.addEventListener("change", function() {
+    let script_length = document.scripts.length;
+    if (script_length > 1) {
+        console.log(document.scripts);
     }
+});
+
+
 
 
