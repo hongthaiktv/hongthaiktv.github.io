@@ -1,6 +1,5 @@
-tmenu - Menu generation
-<br><div><i>Linux Bash terminal</i></div>
--------------------------------------------
+## tmenu - Menu generation
+<div><i>Linux Bash terminal</i></div>
 
 ```sh
 Syntax: tmenu [default] [option 1] [option 2]... [option n]
