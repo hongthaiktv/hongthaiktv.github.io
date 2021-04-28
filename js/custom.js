@@ -49,7 +49,8 @@ promWait().then((result) => {
 */
 
 setTimeout(() => {
-    for (let index = 1; index < document.scripts.length; index++) {
+    let script_length = document.scripts.length;
+    for (let index = 1; index < script_length; index++) {
         console.log(document.scripts);
         document.scripts[1].remove();
     }
