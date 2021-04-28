@@ -20,13 +20,13 @@
     document.querySelector("div.markdown-body").querySelector("h1").remove();
 </script>
 
-## some title
+# some title
 - test md web
   - second line tab
 
 ____________________
 
-## new section
+# new section
 
 > Quote
 >
