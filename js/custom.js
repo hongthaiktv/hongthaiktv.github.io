@@ -26,12 +26,9 @@ page_header.innerHTML = `<div class="inner">
 </div>`;
 
 // Remove all base script
-document.body.addEventListener("change", function() {
-    let script_length = document.scripts.length;
-    if (script_length > 1) {
-        console.log(document.scripts);
-    }
-});
+setTimeout(() => {
+    console.log(document.scripts);
+}, 10000);
 
 
 
