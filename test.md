@@ -24,9 +24,9 @@ Variable:<br>
 
 Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
-<h6 class=""><a href="index.html">Right bottom</a></h6>
-<h6 class=""><a href="index.html">Right bottom</a></h6>
-<h6 class=""><a href="index.html">Right bottom</a></h6>
-<h6 class=""><a href="index.html">Right bottom</a></h6>
+<h6 class="rpanel"><a href="index.html">Right bottom</a></h6>
+<h6 class="rpanel"><a href="index.html">Right bottom</a></h6>
+<h6 class="rpanel"><a href="index.html">Right bottom</a></h6>
+<h6 class="rpanel"><a href="index.html">Right bottom</a></h6>
 
 <script src="js/custom.js" id="cst_script"></script>
