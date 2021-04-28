@@ -1,5 +1,3 @@
-<script src="js/custom.js"></script>
-
 # some title
 - test md web
   - second line tab
@@ -14,3 +12,4 @@ ____________________
 >
 > Quote 3
 
+<script src="js/custom.js"></script>
