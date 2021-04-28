@@ -29,7 +29,8 @@ document.body.insertBefore(page_header, markdown_body);
 
 var cnt_wrapper = document.createElement("div");
 cnt_wrapper.id = "content-wrapper";
-cnt_wrapper.innerHTML = "<div class='inner clearfix'></div>";
-cnt_wrapper.querySelector("div").appendChild(markdown_body);
+cnt_wrapper.innerHTML = "<div class='inner clearfix'><section id='main-content'></section></div>";
+cnt_wrapper.querySelector("section").innerHTML = markdown_body.innerHTML;
+markdown_body.remove();
 document.body.appendChild(cnt_wrapper);
 
