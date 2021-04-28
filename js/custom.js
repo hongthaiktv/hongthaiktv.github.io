@@ -24,4 +24,5 @@ page_header.innerHTML = `<div class="inner">
 <h2>My basic learning code</h2>
     <a href="https://github.com/hongthaiktv/" class="button"><small>View repositories on</small> GitHub</a>
 </div>`;
+document.body.insertBefore(page_header, markdown_body);
 
