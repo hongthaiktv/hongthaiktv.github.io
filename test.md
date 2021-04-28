@@ -24,9 +24,9 @@ Variable:<br>
 
 Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
-<a href="index.html">Right bottom</a>
-<a href="index.html">Right bottom 2</a>
-<a href="index.html">Right bottom 3</a>
-<a href="index.html">Right bottom 4</a>
+<a class="repo-owner" href="index.html">Right bottom</a>
+<a class="repo-owner" href="index.html">Right bottom 2</a>
+<a class="repo-owner" href="index.html">Right bottom 3</a>
+<a class="repo-owner" href="index.html">Right bottom 4</a>
 
 <script src="js/custom.js" id="cst_script"></script>

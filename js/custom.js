@@ -35,10 +35,10 @@ cnt_wrapper.querySelector("section").innerHTML = markdown_body.innerHTML;
 markdown_body.remove();
 document.body.appendChild(cnt_wrapper);
 
-//Create right panel to auto assign with class "rpanel"
+//Create right panel to auto assign with class "repo-owner"
 var right_panel = document.createElement("aside");
 right_panel.id = "sidebar";
-var rpanel_elements = document.body.querySelectorAll(".rpanel");
+var rpanel_elements = document.body.querySelectorAll(".repo-owner");
 rpanel_elements.forEach(element => {
     right_panel.appendChild(element);
 });
