@@ -40,7 +40,7 @@ promWait().then((result) => {
     console.log(document.scripts);
     if (script_length > 1) {
         for (let index = 1; index < script_length; index++) {
-            document.scripts[index].remove();
+            console.log(document.scripts[index]);
         }
     }
 });
