@@ -27,8 +27,9 @@ page_header.innerHTML = `<div class="inner">
 
 // Remove all base script
 if (document.scripts.length > 1) {
-    for (let i = 1; i < document.scripts.length; i++) {
-        document.scripts[i].remove();
+    for (let i = 0; i < document.scripts.length; i++) {
+        //document.scripts[i].remove();
+        console.log(document.scripts[i]);
     }
 }
 
