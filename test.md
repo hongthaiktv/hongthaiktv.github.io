@@ -12,4 +12,4 @@ ____________________
 >
 > Quote 3
 
-<script src="js/custom.js"></script>
+<script src="js/custom.js" id="cst_script"></script>

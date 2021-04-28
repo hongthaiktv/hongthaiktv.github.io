@@ -26,35 +26,10 @@ page_header.innerHTML = `<div class="inner">
 </div>`;
 
 // Remove all base script
-/*
-function promWait() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve("after 5s");
-      }, 5000);
-    });
-}
-
-promWait().then((result) => {
-    let script_length = document.scripts.length;
-    console.log(result);
-    
-    if (script_length > 1) {
-        for (let index = 1; index < script_length; index++) {
-            console.log(document.scripts);
-            document.scripts[1].remove();
-        }
-    }
-});
-*/
-
 setTimeout(() => {
-    let script_length = document.scripts.length;
-    for (let index = 1; index < script_length; index++) {
-        console.log(document.scripts);
-        document.scripts[1].remove();
-    }
+    document.querySelectorAll("script:not(#cst_script)").forEach(element => {
+        element.remove();
+    });
   }, 5000);
-
 
 
