@@ -26,15 +26,15 @@ document.body.insertBefore(page_header, markdown_body);
 var cnt_wrapper = document.createElement("div");
 cnt_wrapper.id = "content-wrapper";
 cnt_wrapper.innerHTML = "<div class='inner clearfix'><section id='main-content'></section></div>";
-cnt_wrapper.querySelector("section").innerHTML = markdown_body.innerHTML;
-markdown_body.remove();
-document.body.appendChild(cnt_wrapper);
 
 //Create right panel to auto assign with class "rpanel"
 var right_panel = document.createElement("aside");
 right_panel.id = "sidebar";
-var rpanel_elements = document.body.querySelectorAll(".rpanel");
+var rpanel_elements = markdown_body.querySelectorAll(".rpanel");
 rpanel_elements.forEach(element => {
     right_panel.appendChild(element);
 });
-document.body.appendChild(right_panel);
+cnt_wrapper.querySelector("div.inner.clearfix").appendChild(right_panel);
+cnt_wrapper.querySelector("section#main-content").innerHTML = markdown_body.innerHTML;
+markdown_body.remove();
+document.body.appendChild(cnt_wrapper);
