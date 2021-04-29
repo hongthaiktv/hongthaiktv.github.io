@@ -1,5 +1,4 @@
-tmenu - Menu generation
---------------------------
+# tmenu - Menu generation
 *Linux Bash terminal*
 
 ```sh
@@ -26,9 +25,9 @@ Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
 _________________________________________________
 
-### tmenu - Menu generation
+## tmenu - Menu generation
 
-*Linux Bash terminal*
+### *Linux Bash terminal*
 
 ```sh
 Syntax: tmenu [default] [option 1] [option 2]... [option n]
