@@ -48,4 +48,3 @@ Syntax: tmenu [default] [option 1] [option 2]... [option n]
 
 ###### Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
-<script src="js/custom.js" id="cst_script"></script>

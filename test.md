@@ -51,9 +51,11 @@ Syntax: tmenu [default] [option 1] [option 2]... [option n]
 
 ###### Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
-<h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
-<h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
-<h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
-<h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
+###### Item right 1
+###### Item right 2
+###### Item right 3
+###### Item right 4
+###### Item right 5
+###### Item right 6
 
 <script src="lib/js/custom.js" id="cst_script"></script>
