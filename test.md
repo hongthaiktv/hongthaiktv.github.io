@@ -56,4 +56,4 @@ Syntax: tmenu [default] [option 1] [option 2]... [option n]
 <h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
 <h6 class="repo-owner rpanel"><a href="index.html">Right bottom</a></h6>
 
-<script src="js/custom.js" id="cst_script"></script>
+<script src="lib/js/custom.js" id="cst_script"></script>
