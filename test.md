@@ -49,7 +49,7 @@ Syntax: tmenu [default] [option 1] [option 2]... [option n]
 ##### Variable:<br>
 `TMENU_RESULT`: Get selected result.
 
-###### Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
+Using `'source /path/tmenu.sh'` to add to your script before call tmenu.
 
 ###### Item right 1
 ###### Item right 2
